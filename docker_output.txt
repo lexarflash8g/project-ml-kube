@@ -1,0 +1,9 @@
+2021-02-08T23:04:12.373665100Z  * Serving Flask app "app" (lazy loading)
+2021-02-08T23:04:12.373709800Z  * Environment: production
+2021-02-08T23:04:12.373716500Z    WARNING: Do not use the development server in a production environment.
+2021-02-08T23:04:12.373721800Z    Use a production WSGI server instead.
+2021-02-08T23:04:12.373725700Z  * Debug mode: on
+2021-02-08T23:04:12.379730700Z  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+2021-02-08T23:04:12.380342700Z  * Restarting with stat
+2021-02-08T23:04:12.979917900Z  * Debugger is active!
+2021-02-08T23:04:12.980684200Z  * Debugger PIN: 974-037-289
