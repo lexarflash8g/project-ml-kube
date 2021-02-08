@@ -10,7 +10,8 @@ export dockerpath="lexarflash8g/flaskapp"
 # Run the Docker Hub container with kubernetes
 kubectl run flaskapp --image=$dockerpath | tee kubernetes_out.txt
 
-
+#wait for pod to become available
+sleep 30
 # Step 3:
 # List kubernetes pods
 kubectl get pods | tee -a kubernetes_out.txt
