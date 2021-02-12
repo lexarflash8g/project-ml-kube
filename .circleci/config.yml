@@ -37,4 +37,4 @@ jobs:
           name: run lint
           command: |
             . venv/bin/activate
-            hadolint Dockerfile --ignore DL400 DL3042
+            hadolint Dockerfile --ignore DL400 --ignore DL3042
