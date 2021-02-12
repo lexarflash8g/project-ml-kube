@@ -20,3 +20,4 @@ kubectl get pods | tee -a kubernetes_out.txt
 
 kubectl port-forward flaskapp 8000:80 | tee -a kubernetes_out.txt
 
+sh make-prediction.sh | tee -a kubernetes_out.txt

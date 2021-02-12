@@ -6,6 +6,8 @@
 # Build image and add a descriptive tag
 docker build --tag flaskapp . 
 
+docker login 
+
 # Step 2: 
 # List docker images
 

@@ -7,6 +7,7 @@
 # Create dockerpath
 # dockerpath=<your docker ID/path>
 export dockerpath="lexarflash8g/flaskapp"
+docker login  --username lexarflash8g
 
 # Step 2:  
 # Authenticate & tag

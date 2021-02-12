@@ -1,9 +1,14 @@
 pod/flaskapp created
-NAME                              READY   STATUS              RESTARTS   AGE
-flaskapp                          0/1     ContainerCreating   0          0s
-node-configmap-577f5d6b98-7s7xl   1/1     Running             8          13d
 NAME                              READY   STATUS    RESTARTS   AGE
-flaskapp                          1/1     Running   0          59s
-node-configmap-577f5d6b98-7s7xl   1/1     Running   8          13d
+flaskapp                          1/1     Running   0          30s
+kubia-manual                      1/1     Running   1          29h
+node-configmap-577f5d6b98-7s7xl   1/1     Running   11         17d
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
+Port: 8000
+Handling connection for 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
